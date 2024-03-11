@@ -1,0 +1,92 @@
+html,body {
+    background: url(images/tile.png) top left repeat;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+ul li {
+    display: inline;
+}
+img {
+    border: none;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 965px;
+}
+
+#container h1 {
+    font-family: times,helvetic,sans-serif;
+    font-size: 112px;
+    margin: 0;
+    padding-top: 12px;
+}
+
+#container h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#container p {
+    font-weight: bold;
+    margin: 1em 50px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+#container p.middle {
+    text-align: center;
+}
+
+#container ul#second_row {
+    margin: 42px 0;
+}
+
+#container ul#second_row li {
+    margin: 0 18px;
+}
+
+#container ul#second_row li img {
+    vertical-align: top;
+}
+
+#container ul#fourth_row li{
+    margin: 40px 95px;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.white{
+    color: white;
+}
+
+.large{
+    font-size: 42px;
+}
+
+.medium{
+    font-size: 25px;
+}
+
+.small{
+    font-size: 21px;
+}
+
+div.ribbons {
+    background: url(./images/bow_left.png) no-repeat 155px 70px;
+}
+div.ribbons p {
+    background: url(./images/bow_right.png) no-repeat 655px 70px;
+    padding: 22px;
+}
